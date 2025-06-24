@@ -85,43 +85,6 @@
         "assets/images/projects/craftfolio_detail_3.jpg",
         "assets/images/projects/craftfolio_detail_4.jpg"
       ]
-    },    {
-      "title": "FeynLearn – AI-Powered Learning App",
-      "subtitle": "An AI-powered app for smarter, faster learning.",
-      "description": "An application that aids students in breaking down study materials into manageable content, generating summaries, flashcards, and quizzes with AI-driven interactive experiences.",
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "Firebase",
-        "Groq API"
-      ],
-      "link": "https://github.com/FiazJutt",
-      "coverImage": "assets/images/projects/feynlearn_cover.png",
-      "detailImages": [
-        "assets/images/projects/feynlearn_detail_1.jpg",
-        "assets/images/projects/feynlearn_detail_2.jpg",
-        "assets/images/projects/feynlearn_detail_3.jpg",
-        "assets/images/projects/feynlearn_detail_4.jpg",
-        "assets/images/projects/feynlearn_detail_5.jpg"
-      ]
-    },
-    {
-      "title": "Craftfolio – Resume Builder App",
-      "subtitle": "Build professional resumes in minutes.",
-      "description": "A mobile app enabling users to build professional resumes with personalized templates in under 5 minutes using guided input forms and real-time validation.",
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "Firebase"
-      ],
-      "link": "https://github.com/FiazJutt",
-      "coverImage": "assets/images/projects/craftfolio_cover.png",
-      "detailImages": [
-        "assets/images/projects/craftfolio_detail_1.jpg",
-        "assets/images/projects/craftfolio_detail_2.jpg",
-        "assets/images/projects/craftfolio_detail_3.jpg",
-        "assets/images/projects/craftfolio_detail_4.jpg"
-      ]
     }
   ],
   "contact": {
