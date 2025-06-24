@@ -1,0 +1,20 @@
+# Netlify configuration for a Flutter web project
+
+[build]
+  # This command builds the Flutter web application for production.
+  command = "flutter build web --release"
+  
+  # This is the directory that Netlify will publish.
+  # Flutter's web build output is located in 'build/web'.
+  publish = "build/web"
+
+# The following settings are for local development using 'netlify dev'
+[dev]
+  # Command to run the development server
+  command = "flutter run -d chrome"
+  
+  # The port for the local development server
+  port = 8888
+  
+  # The directory to publish in development mode
+  publish = "web"

@@ -1,0 +1,135 @@
+{
+  "name": "Muhammad Fiaz",
+  "hero": {
+    "greeting": "Hello, Welcome to my Portfolio",
+    "name": "I'm Muhammad Fiaz.",
+    "subtitle": "Mobile App Developer",
+    "description": "Aspiring Mobile Application Developer with a strong foundation in information technology and hands-on experience in Flutter, Dart, and Firebase. Passionate about building intuitive applications that solve meaningful problems."
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I'm a Mobile App Developer skilled in developing user-centric applications with a focus on performance, usability, and real-world impact. I have a proven ability to lead teams and deliver innovative mobile solutions through academic and professional projects.",
+    "description2": "I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.",
+    "imageUrl": "assets/images/profile_picture.jpg"
+  },
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Java",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Firebase",
+    "Git",
+    "REST APIs",
+    "SQL",
+    "MySQL",
+    "Firebase Realtime Database",
+    "Figma",
+    "Responsive Design",
+    "Dark Mode",
+    "Groq API",
+    "LlamaIndex",
+    "OpenRouter API"
+  ],
+  "experience": [
+    {
+      "role": "Mobile App Developer (FeynLearn – AI-Powered Learning App)",
+      "company": "University Final Year Project",
+      "period": "Mar 2025 – Present",
+      "description": "Developed an educational mobile application utilizing Flutter, Dart, and Firebase to assist students in understanding complex concepts through AI-driven content summarization and interactive tools. Improved student engagement by 40% and reduced average study time by 60%."
+    },
+    {
+      "role": "Student & Team Lead (Craftfolio – Resume Builder Mobile App)",
+      "company": "Dev Valley Institute (NAVTTC Program)",
+      "period": "May 2025 – Present",
+      "description": "Led a team of 4 junior developers, achieving 100% milestone achievement and a perfect score in the final project evaluation. Reduced Firebase read/write latency by 30% through code refactoring and backend optimization."
+    }
+  ],
+  "projects": [
+    {
+      "title": "FeynLearn – AI-Powered Learning App",
+      "subtitle": "An AI-powered app for smarter, faster learning.",
+      "description": "An application that aids students in breaking down study materials into manageable content, generating summaries, flashcards, and quizzes with AI-driven interactive experiences.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Groq API"
+      ],
+      "link": "https://github.com/FiazJutt",
+      "coverImage": "assets/images/projects/feynlearn_cover.png",
+      "detailImages": [
+        "assets/images/projects/feynlearn_detail_1.jpg",
+        "assets/images/projects/feynlearn_detail_2.jpg",
+        "assets/images/projects/feynlearn_detail_3.jpg",
+        "assets/images/projects/feynlearn_detail_4.jpg",
+        "assets/images/projects/feynlearn_detail_5.jpg"
+      ]
+    },
+    {
+      "title": "Craftfolio – Resume Builder App",
+      "subtitle": "Build professional resumes in minutes.",
+      "description": "A mobile app enabling users to build professional resumes with personalized templates in under 5 minutes using guided input forms and real-time validation.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "link": "https://github.com/FiazJutt",
+      "coverImage": "assets/images/projects/craftfolio_cover.png",
+      "detailImages": [
+        "assets/images/projects/craftfolio_detail_1.jpg",
+        "assets/images/projects/craftfolio_detail_2.jpg",
+        "assets/images/projects/craftfolio_detail_3.jpg",
+        "assets/images/projects/craftfolio_detail_4.jpg"
+      ]
+    },    {
+      "title": "FeynLearn – AI-Powered Learning App",
+      "subtitle": "An AI-powered app for smarter, faster learning.",
+      "description": "An application that aids students in breaking down study materials into manageable content, generating summaries, flashcards, and quizzes with AI-driven interactive experiences.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Groq API"
+      ],
+      "link": "https://github.com/FiazJutt",
+      "coverImage": "assets/images/projects/feynlearn_cover.png",
+      "detailImages": [
+        "assets/images/projects/feynlearn_detail_1.jpg",
+        "assets/images/projects/feynlearn_detail_2.jpg",
+        "assets/images/projects/feynlearn_detail_3.jpg",
+        "assets/images/projects/feynlearn_detail_4.jpg",
+        "assets/images/projects/feynlearn_detail_5.jpg"
+      ]
+    },
+    {
+      "title": "Craftfolio – Resume Builder App",
+      "subtitle": "Build professional resumes in minutes.",
+      "description": "A mobile app enabling users to build professional resumes with personalized templates in under 5 minutes using guided input forms and real-time validation.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "link": "https://github.com/FiazJutt",
+      "coverImage": "assets/images/projects/craftfolio_cover.png",
+      "detailImages": [
+        "assets/images/projects/craftfolio_detail_1.jpg",
+        "assets/images/projects/craftfolio_detail_2.jpg",
+        "assets/images/projects/craftfolio_detail_3.jpg",
+        "assets/images/projects/craftfolio_detail_4.jpg"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "description": "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "email": "fiazejaz786@gmail.com",
+    "linkedin": "http://www.linkedin.com/in/muhammadfiazdev",
+    "github": "https://github.com/FiazJutt"
+  },
+  "resume_url": "assets/documents/MUHAMMAD%20FIAZ%20Resume.increase_manage%20fonts.pdf"
+}
