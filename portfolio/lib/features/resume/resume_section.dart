@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+// ignore: avoid_web_libraries_in_flutter
+import 'dart:html' as html;
 import 'package:portfolio/app/theme/app_colors.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class ResumeSection extends StatelessWidget {
   const ResumeSection({super.key, required this.resumeUrl});
@@ -56,15 +57,13 @@ class _DownloadButton extends StatefulWidget {
 class _DownloadButtonState extends State<_DownloadButton> {
   bool _isHovered = false;
 
-  void _launchResume() async {
-    // For web, assets are served from the 'assets' directory.
-    // We construct the full URL based on the current window location.
-    final String url = '${Uri.base.toString().replaceAll('/#', '')}${widget.resumeUrl}';
-    final Uri uri = Uri.parse(url);
-
-    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $url');
-    }
+  void _launchResume() {
+    // This is the standard web-only approach to trigger a file download.
+    // We use dart:html to create an anchor element and programmatically click it.
+    final String url = widget.resumeUrl;
+    html.AnchorElement(href: url)
+      ..setAttribute('download', 'Muhammad_Fiaz_Resume.pdf')
+      ..click();
   }
 
   @override
