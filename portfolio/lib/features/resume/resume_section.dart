@@ -57,9 +57,13 @@ class _DownloadButtonState extends State<_DownloadButton> {
   bool _isHovered = false;
 
   void _launchResume() async {
-    final Uri uri = Uri.parse(widget.resumeUrl);
-    if (!await launchUrl(uri)) {
-      throw Exception('Could not launch ${widget.resumeUrl}');
+    // For web, assets are served from the 'assets' directory.
+    // We construct the full URL based on the current window location.
+    final String url = '${Uri.base.toString().replaceAll('/#', '')}${widget.resumeUrl}';
+    final Uri uri = Uri.parse(url);
+
+    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+      throw Exception('Could not launch $url');
     }
   }
 
