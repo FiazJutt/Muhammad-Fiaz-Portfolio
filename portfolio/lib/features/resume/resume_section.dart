@@ -60,7 +60,9 @@ class _DownloadButtonState extends State<_DownloadButton> {
   void _launchResume() {
     // This is the standard web-only approach to trigger a file download.
     // We use dart:html to create an anchor element and programmatically click it.
-    const String url = 'assets/documents/Muhammad_Fiaz_Resume.pdf';
+    // We construct the full URL to ensure the path is absolute and unambiguous.
+    final baseUrl = html.window.location.origin;
+    final url = '$baseUrl/assets/documents/Muhammad_Fiaz_Resume.pdf';
     html.AnchorElement(href: url)
       ..setAttribute('download', 'Muhammad_Fiaz_Resume.pdf')
       ..click();
